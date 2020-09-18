@@ -48,7 +48,7 @@ function getMediaEvent(mediaEventName, mediaEventTime, mediaEventProvider) {
     let expiryTime = new Date();
     let startTime = new Date(mediaEventTime);
 
-    expiryTime.setMinutes(expiryTime.getHours() + 24);
+    expiryTime.setMinutes(expiryTime.getMinutes() + 24);
 
     let referenceId = "SampleReferenceId" + new Date().getTime();  // cross reference to records in your existing systems
 
