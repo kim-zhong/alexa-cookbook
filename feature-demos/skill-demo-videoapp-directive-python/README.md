@@ -15,5 +15,5 @@ This folder contains the interaction model and skill code.  It is structured to 
 ## Running the Demo
 To start the demo say "alexa open video demo".  Alexa will speak and start playing the video.
 
-## Related Content:
+## Related Content
 [VideoApp Interface Reference](https://developer.amazon.com/en-US/docs/alexa/custom-skills/videoapp-interface-reference.html)
